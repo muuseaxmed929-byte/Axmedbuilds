@@ -23,11 +23,7 @@ body {
   margin-bottom: 20px;
 }
 
-nav {
-  border: 2px;
-  background-color: #52c0ff; 
-  border-radius: 20px;
-}
+
 
 a {
   display: block;
@@ -35,6 +31,10 @@ a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+
+  border: 2px;
+  background-color: #52c0ff; 
+  border-radius: 20px;
 }
 
 header {
