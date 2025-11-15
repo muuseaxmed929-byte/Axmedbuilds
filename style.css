@@ -29,6 +29,14 @@ nav {
   border-radius: 20px;
 }
 
+a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
 header {
   text-align: center;
   background-color: white;
