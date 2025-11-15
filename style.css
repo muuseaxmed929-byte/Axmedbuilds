@@ -1,17 +1,20 @@
 body {
   font-family: Arial, sans-serif;
-  margin: 0;
+  margin-left: 0;
   padding: 0;
   background-color: lightblue;
 }
+
 .text {
   margin-left: 15px;
   text-decoration: none;
 }
+
 .text2 {
   margin-left: -15px;
   color: black;
 }
+
 .img {
   margin-left: -35px;
   border-radius: 0;
@@ -27,11 +30,13 @@ body {
   color: blue;
   text-decoration: none;
 }
+
 header {
   text-align: center;
   background-color: white;
   text-decoration: none;
 }
+
 footer {
   margin: 5%;
   font-family: italic;
