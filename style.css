@@ -37,6 +37,11 @@ header {
   text-decoration: none;
 }
 
+main {
+margin-left: 3%;
+margin-right: 3%;
+}
+
 footer {
   margin: 5%;
   font-family: italic;
