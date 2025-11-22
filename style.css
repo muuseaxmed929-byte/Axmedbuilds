@@ -1,57 +1,82 @@
 body {
   font-family: Arial, sans-serif;
-  margin-left: 0;
-  padding: 0;
-  background-color: lightblue;
-}
-
-.text {
-  
-  text-decoration: none;
-}
-
-.text2 {
-  margin-left: -15px;
-  color: black;
-}
-
-.img {
-  margin-left: -35px;
-  border-radius: 0;
-  width: 100%;
-  margin-top: 10px;
-  margin-bottom: 20px;
-}
-
-
-
-.link {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-
-  border: 2px;
-  background-color: #52c0ff; 
-  border-radius: 20px;
+  line-height: 1.1;
+  background-color: gold;
 }
 
 header {
+  background-color: orange;
+  padding: 8px;
   text-align: center;
-  background-color: white;
-  text-decoration: none;
+}
+
+header h1 {
+  margin-bottom: 16px;
+}
+
+header nav {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+header img {
+  width: 300px;
+  margin: 8px auto;
+  display: block;
 }
 
 main {
-margin-left: 3%;
-margin-right: 3%;
+  padding: 16px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+h2 {
+  color: green;
+  border-bottom: 2px solid green;
+  padding-bottom: 3px;
+  margin-top: 100px;
+  margin-bottom: 2px;
+  text-align: center;
+}
+
+h3 {
+  color: green;
+  margin-top: 32px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+section {
+  margin-bottom: 32px;
+}
+
+figcaption {
+  font-style: italic;
+  margin-top: 8px;
+  color: white;
+  text-align: center;
+}
+main .img {
+  display: block;
+  width: 700px;
+  margin: auto;
+  border: solid green;
 }
 
 footer {
-  margin: 5%;
-  font-family: italic;
-  color: black;
-  font-weight: 10px;
-  font-size: 14px;
+  background-color: green;
+  text-align: center;
+  padding: 1px;
+  margin-top: 32px;
+}
+
+footer a {
+  color: blue;
+  text-decoration: none;
+  border-bottom: 1px solid blue;
+}
+
+footer a:hover {
+  border-bottom: 1px solid transparent;
 }
