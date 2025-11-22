@@ -27,8 +27,8 @@ header img {
 
 main {
   padding: 16px;
-  max-width: 1100px;
   margin: 0 auto;
+  max-width: 1200px;
 }
 
 h2 {
@@ -62,6 +62,23 @@ main .img {
   width: 700px;
   margin: auto;
   border: solid green;
+}
+
+.img2 {
+  max-width: 100%;
+}
+
+.grouping {
+  display: flex;
+  max-width: 1200px;
+}
+
+.first {
+  margin-right: 20px;
+}
+
+.second {
+  margin-left: 20px;
 }
 
 footer {
