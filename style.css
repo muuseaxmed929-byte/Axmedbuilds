@@ -28,7 +28,6 @@ header img {
 main {
   padding: 16px;
   margin: 0 auto;
-  max-width: 1200px;
 }
 
 h2 {
@@ -57,27 +56,18 @@ figcaption {
   color: white;
   text-align: center;
 }
-main .img {
+main img {
   display: block;
-  width: 700px;
-  margin: auto;
+  width: 380px;
+  height: 300px;
   border: solid green;
-}
-
-.img2 {
-  max-width: 100%;
 }
 
 .grouping {
   display: flex;
-  max-width: 1200px;
 }
 
-.first {
-  margin-right: 20px;
-}
-
-.second {
+.img2 {
   margin-left: 20px;
 }
 
